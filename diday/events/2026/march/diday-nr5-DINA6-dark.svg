@@ -28,15 +28,15 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="3.659624"
-     inkscape:cx="133.07378"
-     inkscape:cy="231.71779"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="178.89802"
+     inkscape:cy="291.68155"
      inkscape:window-width="3840"
      inkscape:window-height="2068"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg240" />
+     inkscape:current-layer="layer1" />
   <defs
      id="defs237">
     <rect
@@ -78,7 +78,7 @@
        xlink:href="#linearGradient1146"
        id="linearGradient2058"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.2811549,0,0,1.2811549,-36.059577,7.6721365)"
+       gradientTransform="matrix(1.2811549,0,0,1.2811549,-36.059573,7.7654808)"
        x1="48.797504"
        y1="138.62044"
        x2="118.7975"
@@ -88,7 +88,7 @@
        xlink:href="#linearGradient1146"
        id="linearGradient2156"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.2811549,0,0,1.2811549,-36.059574,71.86272)"
+       gradientTransform="matrix(1.2811549,0,0,1.2811549,-36.059573,59.835009)"
        x1="48.797504"
        y1="138.62044"
        x2="118.7975"
@@ -140,39 +140,49 @@
      transform="translate(-18.797504,-108.62044)">
     <path
        style="color:#000000;fill:url(#linearGradient2058);stroke-width:0.648934;-inkscape-stroke:none"
-       d="m 26.457003,184.96844 v 0.5957 H 116.138 v -0.5957 z"
+       d="m 26.457006,185.06185 v 0.5957 H 116.138 v -0.5957 z"
        id="path393-0"
        inkscape:label="Rainbow Line" />
     <path
        style="color:#000000;fill:url(#linearGradient2156);stroke-width:0.648934;-inkscape-stroke:none"
-       d="m 26.457006,249.15901 v 0.5957 H 116.138 v -0.5957 z"
+       d="m 26.457007,237.13132 v 0.5957 H 116.138 v -0.5957 z"
        id="path393-0-6"
        inkscape:label="Rainbow Line" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.87219px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;stroke-width:0.974545"
-       x="50.420895"
-       y="174.26192"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.63701px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;stroke-width:0.948712"
+       x="63.42025"
+       y="174.46539"
        id="text1792"
        inkscape:label="5. Digital Indipendence Day"><tspan
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.87219px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.974545"
-         x="50.420895"
-         y="174.26192"
-         id="tspan1969">5. DI.<tspan
-   style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Medium';stroke-width:0.974545"
-   id="tspan2440">DAY</tspan></tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.63701px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.948712"
+         x="63.42025"
+         y="174.46539"
+         id="tspan431">5. Digital</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.63701px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;stroke-width:0.948712"
+       x="70.904518"
+       y="182.32683"
+       id="text1792-3"
+       inkscape:label="5. Digital Indipendence Day"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.63701px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.948712"
+         x="70.904518"
+         y="182.32683"
+         id="tspan431-7">Independence Day</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:5.38366px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Ultra-Bold';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;stroke-width:0.591355"
-       x="73.56337"
-       y="181.93748"
+       x="71.359421"
+       y="192.36659"
        id="text1792-1"
        inkscape:label="5. Digital Indipendence Day"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:5.38366px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Ultra-Bold';text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.591355"
-         x="73.56337"
-         y="181.93748"
+         x="71.359421"
+         y="192.36659"
          id="tspan1969-7">Tag des offenen Hackspace</tspan></text>
     <text
        xml:space="preserve"
@@ -182,98 +192,62 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:100;font-stretch:normal;font-size:11.3926px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Thin';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:1.25139"
-       x="52.255386"
-       y="213.761"
+       x="53.202858"
+       y="218.04356"
        id="text1983"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:100;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Thin';text-align:start;text-anchor:start;stroke-width:1.25139"
-         x="52.255386"
-         y="213.761"
+         x="53.202858"
+         y="218.04356"
          id="tspan1985">28.03.2026</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:100;font-stretch:normal;font-size:11.3926px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Thin';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:1.25139"
-       x="32.146217"
-       y="202.53105"
+       x="31.198725"
+       y="206.81361"
        id="text1983-2"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:100;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Thin';text-align:start;text-anchor:start;stroke-width:1.25139"
-         x="32.146217"
-         y="202.53105"
+         x="31.198725"
+         y="206.81361"
          id="tspan1985-9">Samstag</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:100;font-stretch:normal;font-size:11.3926px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Thin';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:1.25139"
-       x="32.693062"
-       y="225.75278"
-       id="text1983-1"><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:100;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Thin';text-align:start;text-anchor:start;stroke-width:1.25139"
-         x="32.693062"
-         y="225.75278"
-         id="tspan1985-8">13:37 - 22:00</tspan></text>
-    <text
-       xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:600;font-stretch:normal;font-size:5.77401px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Semi-Bold Italic';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.634232"
-       x="30.590139"
-       y="249.25908"
+       x="27.444601"
+       y="251.89149"
        id="text2301"
        transform="rotate(-3.3583647)"><tspan
          sodipodi:role="line"
          id="tspan2299"
          style="font-style:italic;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Semi-Bold Italic';stroke-width:0.634232"
-         x="30.590139"
-         y="249.25908">Wir freuen uns auf Euch!</tspan></text>
+         x="27.444601"
+         y="251.89149">Wir freuen uns auf Euch!</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.57995px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.39323"
-       x="29.319023"
-       y="232.40979"
-       id="text2577"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:100;font-stretch:normal;font-size:11.3926px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Thin';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:1.25139"
+       x="31.745569"
+       y="231.43187"
+       id="text1983-1"><tspan
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:Montserrat;stroke-width:0.39323"
-         x="29.319023"
-         y="232.40979"
-         id="tspan1552">Informiert Euch über <tspan
-   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Italic';stroke-width:0.39323"
-   id="tspan2491">Digitale Unabhängigkeit</tspan></tspan><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:Montserrat;stroke-width:0.39323"
-         x="29.319023"
-         y="236.88474"
-         id="tspan1554">und lernt uns und den Hackspace kennen. ;)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;font-size:4.26653px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Ultra-Light';fill:#fffffe;fill-opacity:1;stroke-width:0.531282"
-       x="32.777134"
-       y="192.3772"
-       id="text1766"><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;font-size:4.26653px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Ultra-Light';fill:#fffffe;fill-opacity:1;stroke-width:0.531282"
-         x="32.777134"
-         y="192.3772"
-         id="tspan2442">Aufgrund von Ostern 1 Woche früher:</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:2.88447px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Light';fill:#fffffe;fill-opacity:1;stroke-width:0.534703"
-       x="74.8414"
-       y="173.79726"
-       id="text1766-0"><tspan
-         sodipodi:role="line"
-         style="font-style:italic;font-variant:normal;font-weight:300;font-stretch:normal;font-size:2.88447px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Light Italic';fill:#fffffe;fill-opacity:1;stroke-width:0.534703"
-         x="74.8414"
-         y="173.79726"
-         id="tspan2487">Digital Independence Day</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:100;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Thin';text-align:start;text-anchor:start;stroke-width:1.25139"
+         x="31.745569"
+         y="231.43187"
+         id="tspan1985-8">14:00<tspan
+   style="font-size:7.05556px"
+   id="tspan673"> </tspan>-<tspan
+   style="font-size:7.05556px"
+   id="tspan677"> </tspan>22:00</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;font-size:5.98886px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Ultra-Light';fill:#fffffe;fill-opacity:1;stroke-width:1.11017"
-       x="98.960197"
-       y="225.76299"
+       x="99.907669"
+       y="231.76222"
        id="text1766-0-3"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;font-size:5.98886px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Ultra-Light';fill:#fffffe;fill-opacity:1;stroke-width:1.11017"
-         x="98.960197"
-         y="225.76299"
+         x="99.907669"
+         y="231.76222"
          id="tspan2634">Uhr</tspan></text>
   </g>
 </svg>
