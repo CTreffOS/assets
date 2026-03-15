@@ -8,7 +8,7 @@
    version="1.1"
    id="svg240"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   sodipodi:docname="diday-icon-main-raw.svg"
+   sodipodi:docname="diday-icon-main-dev.svg"
    inkscape:export-filename="diday-icon-main-raw1.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
@@ -29,14 +29,14 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="3.659624"
-     inkscape:cx="301.67034"
+     inkscape:cx="299.21107"
      inkscape:cy="206.85185"
      inkscape:window-width="3840"
      inkscape:window-height="2068"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer3" />
+     inkscape:current-layer="layer1" />
   <defs
      id="defs237">
     <linearGradient
@@ -161,17 +161,6 @@
          y="170.65622"><tspan
    style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Semi-Bold';stroke-width:1.21875"
    id="tspan421">DI.</tspan>DAY</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:500;font-size:4.23333px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Medium';text-align:end;text-anchor:end;fill:#ff0000;stroke-width:0.465;fill-opacity:0.74967283"
-       x="29.251787"
-       y="186.2829"
-       id="text308"><tspan
-         sodipodi:role="line"
-         id="tspan306"
-         style="stroke-width:0.465;fill:#ff0000;fill-opacity:0.74967283"
-         x="29.251787"
-         y="186.2829" /></text>
   </g>
   <g
      inkscape:groupmode="layer"
