@@ -1,0 +1,8 @@
+The DIDAY event banner has not yet been assigned a formal
+open license.
+
+Copyright: Benjamin Zöllner
+
+Until a license is officially assigned by Benjamin Zöllner, all
+rights are reserved and redistribution requires explicit permission from the
+copyright holder.
