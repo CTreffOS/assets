@@ -1,0 +1,60 @@
+version = 1
+
+# ── Diday event graphics ──────────────────────────────────────────────────────
+# diday/events/: compositions by Nils Israel (CC0-1.0),
+# incorporating:
+#   - DIDAY logo from https://codeberg.org/DI-Day/website (CC-BY-4.0, Stella Schiffczyk)
+#   - Pixeled background extracted from https://codeberg.org/DI-Day/creative-identity
+#     document/guide/styleguide.pdf (CC-BY-4.0, MultisampledNight)
+# Flyers that include the Chaostreff Osnabrück e.V. logo also carry that
+# logo's copyright; see chaostreff/logo/ annotations and
+# LICENSES/LicenseRef-Chaostreff-pending.txt.
+
+[[annotations]]
+path = "diday/events/**"
+SPDX-FileCopyrightText = [
+    "2026 Nils Israel",
+    "2026 Stella Schiffczyk",
+    "2025 MultisampledNight",
+]
+SPDX-License-Identifier = "CC0-1.0 AND CC-BY-4.0"
+
+[[annotations]]
+path = "diday/event-banner/**"
+SPDX-FileCopyrightText = "2026 Benjamin Zöllner"
+SPDX-License-Identifier = "LicenseRef-DIDAY-Zoellner-pending"
+
+# ── Chaostreff Osnabrück e.V. logo and graphics ───────────────────────────────
+# License not yet assigned.
+
+[[annotations]]
+path = "chaostreff/logo/**"
+SPDX-FileCopyrightText = "Chaostreff Osnabrück e.V."
+SPDX-License-Identifier = "LicenseRef-Chaostreff-pending"
+
+[[annotations]]
+path = ["chaostreff/**", "chaostalks/**", "rabbithole/**", "osna.social/**", "README.md"]
+SPDX-FileCopyrightText = "Chaostreff Osnabrück e.V."
+SPDX-License-Identifier = "LicenseRef-AllRightsReserved"
+
+# ── Fonts ─────────────────────────────────────────────────────────────────────
+
+[[annotations]]
+path = "fonts/AtkinsonHyperlegible/**"
+SPDX-FileCopyrightText = "2019 Braille Institute of America, Inc."
+SPDX-License-Identifier = "OFL-1.1"
+
+[[annotations]]
+path = "fonts/IntelOneMono/**"
+SPDX-FileCopyrightText = "2023-2024 The Intel One Mono Project Authors (https://github.com/intel/intel-one-mono)"
+SPDX-License-Identifier = "OFL-1.1"
+
+[[annotations]]
+path = "fonts/Montserrat/**"
+SPDX-FileCopyrightText = "2024 The Montserrat.Git Project Authors (https://github.com/JulietaUla/Montserrat.git)"
+SPDX-License-Identifier = "OFL-1.1"
+
+[[annotations]]
+path = "fonts/Overpass/**"
+SPDX-FileCopyrightText = "2021 The Overpass Project Authors (https://github.com/RedHatOfficial/Overpass)"
+SPDX-License-Identifier = "OFL-1.1"
