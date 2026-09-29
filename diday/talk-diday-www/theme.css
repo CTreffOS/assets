@@ -1,0 +1,1108 @@
+/* @theme diday */
+
+/* ---- Fonts (from the repo for offline use, latin + latin-ext subsets) ---- */
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("assets/fonts/atkinson-hyperlegible-latin-ext-400-normal.woff2")
+    format("woff2");
+  unicode-range:
+    U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304,
+    U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("assets/fonts/atkinson-hyperlegible-latin-400-normal.woff2")
+    format("woff2");
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
+    U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212,
+    U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: url("assets/fonts/atkinson-hyperlegible-latin-ext-400-italic.woff2")
+    format("woff2");
+  unicode-range:
+    U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304,
+    U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: url("assets/fonts/atkinson-hyperlegible-latin-400-italic.woff2")
+    format("woff2");
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
+    U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212,
+    U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url("assets/fonts/atkinson-hyperlegible-latin-ext-700-normal.woff2")
+    format("woff2");
+  unicode-range:
+    U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304,
+    U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url("assets/fonts/atkinson-hyperlegible-latin-700-normal.woff2")
+    format("woff2");
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
+    U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212,
+    U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src: url("assets/fonts/atkinson-hyperlegible-latin-ext-700-italic.woff2")
+    format("woff2");
+  unicode-range:
+    U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304,
+    U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src: url("assets/fonts/atkinson-hyperlegible-latin-700-italic.woff2")
+    format("woff2");
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
+    U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212,
+    U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Overpass";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("assets/fonts/overpass-latin-ext-400-normal.woff2") format("woff2");
+  unicode-range:
+    U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304,
+    U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Overpass";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("assets/fonts/overpass-latin-400-normal.woff2") format("woff2");
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
+    U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212,
+    U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Overpass";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url("assets/fonts/overpass-latin-ext-700-normal.woff2") format("woff2");
+  unicode-range:
+    U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304,
+    U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Overpass";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url("assets/fonts/overpass-latin-700-normal.woff2") format("woff2");
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
+    U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212,
+    U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Overpass";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src: url("assets/fonts/overpass-latin-ext-900-normal.woff2") format("woff2");
+  unicode-range:
+    U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304,
+    U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Overpass";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src: url("assets/fonts/overpass-latin-900-normal.woff2") format("woff2");
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
+    U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212,
+    U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Intel One Mono";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("assets/fonts/intel-one-mono-latin-ext-400-normal.woff2")
+    format("woff2");
+  unicode-range:
+    U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304,
+    U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Intel One Mono";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("assets/fonts/intel-one-mono-latin-400-normal.woff2") format("woff2");
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
+    U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212,
+    U+2215, U+FEFF, U+FFFD;
+}
+/* ======================================================
+   BRAND TOKENS — from diday.org
+   Light mode is the default; dark mode follows the OS
+   preference, exactly like the website does.
+   ====================================================== */
+
+:root {
+  /* Surfaces (light) */
+  --color-bg: oklch(0.985 0.001 108);
+  --color-bg-secondary: oklch(0.965 0.005 286);
+  --color-card: #ffffff;
+  --color-code-bg: oklch(0.965 0.005 286);
+
+  /* Text (light) */
+  --color-text: oklch(0.257 0.086 280.7);
+  --color-text-muted: oklch(0.556 0.04 256.8);
+  --color-strong: oklch(0.359 0.135 278.7);
+
+  /* Brand violet — logo colour #4e46dc / hero accent #4f46e5 */
+  --color-brand: oklch(0.511 0.23 277);
+  --color-brand-soft: oklch(0.511 0.23 277 / 0.32);
+  --color-glow: oklch(0.511 0.23 277 / 0.1);
+  --glow-warm: oklch(0.769 0.165 70.1 / 0.1);
+
+  /* Text-level accent: violet in light … */
+  --color-accent: oklch(0.511 0.23 277);
+
+  /* Decorative signature square (Creative Identity, "Business") */
+  --color-signature: #f8c662;
+
+  /* Misc */
+  --color-border: oklch(0.914 0.01 286);
+  --row-alt: oklch(0.965 0.005 286);
+  --pre-bg: #ffffff;
+  --chapter-a: oklch(0.511 0.23 277 / 0.1);
+  --chapter-b: oklch(0.965 0.005 286);
+  --radius: 12px; /* website: --radius: 0.75rem */
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    /* Surfaces (dark) */
+    --color-bg: oklch(0.16 0.039 285.8);
+    --color-bg-secondary: oklch(0.208 0.058 283.2);
+    --color-card: oklch(0.199 0.054 286.6);
+    --color-code-bg: oklch(0.199 0.054 286.6);
+
+    /* Text (dark) */
+    --color-text: oklch(0.972 0.004 84.6);
+    --color-text-muted: oklch(0.656 0.03 285.5);
+    --color-strong: oklch(0.972 0.004 84.6);
+
+    /* Brand violet, lifted for dark surfaces */
+    --color-brand: oklch(0.68 0.158 276.9);
+    --color-brand-soft: oklch(0.585 0.204 277.1 / 0.4);
+    --color-glow: oklch(0.585 0.204 277.1 / 0.18);
+    --glow-warm: oklch(0.704 0.123 182.5 / 0.14);
+
+    /* … teal in dark — like the website's dark-mode highlights (#5eead4) */
+    --color-accent: oklch(0.855 0.125 181.1);
+
+    /* Misc */
+    --color-border: oklch(0.28 0.055 288.4);
+    --row-alt: oklch(0.208 0.058 283.2 / 0.45);
+    --pre-bg: oklch(0.11 0.032 285);
+    --chapter-a: oklch(0.585 0.204 277.1 / 0.22);
+    --chapter-b: oklch(0.2 0.07 276);
+  }
+}
+
+/* ======================================================
+   BASE SLIDE
+   ====================================================== */
+
+section {
+  width: 1280px;
+  height: 720px;
+  font-family: "Atkinson Hyperlegible", system-ui, sans-serif;
+  font-size: 26px;
+  line-height: 1.55;
+  /* Top-right decorative glow, layered over the base surface */
+  background:
+    radial-gradient(
+      circle 200px at calc(100% - 60px) 60px,
+      var(--color-glow) 0%,
+      transparent 100%
+    ),
+    var(--color-bg);
+  color: var(--color-text);
+  padding: 56px 70px 76px;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+/* ---- Animated rainbow rule — borrowed from chaostreff-osnabrueck.de ----
+   Sits on the bottom edge of every slide, including the cover, chapter
+   and closing layouts. Same gradient, same 15 s cycle as hr.rainbow there. */
+
+section::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 6px;
+  background: linear-gradient(
+      90deg,
+      #ff0000,
+      #ff9a00,
+      #d0de21,
+      #4fdc4a,
+      #3fdad8,
+      #2fc9e2,
+      #1c7fee,
+      #5f15f2,
+      #ba0cf8,
+      #fb07d9,
+      #ff0000
+    )
+    0 0 / 200% 100%;
+  animation: rainbow 15s linear infinite;
+  pointer-events: none;
+  z-index: 2;
+}
+
+@keyframes rainbow {
+  to {
+    background-position: -200% 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  section::before {
+    animation: none;
+  }
+}
+
+/* Slide number — bottom right
+   Marp positions ::after relative to the content box (inside padding),
+   while footer is placed relative to the border box.
+   Compensate with a negative bottom to align with the footer. */
+section::after {
+  content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);
+  position: absolute;
+  bottom: -48px;
+  right: 48px;
+  font-family: "Intel One Mono", monospace;
+  font-size: 13px;
+  color: var(--color-text-muted);
+  opacity: 0.8;
+  z-index: 1;
+}
+
+/* Ensure slide content sits above decorative pseudo-elements */
+section > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* ---- Footer (global) — with yellow signature square ---- */
+
+section footer {
+  position: absolute;
+  bottom: 28px;
+  left: 70px;
+  font-size: 13px;
+  font-family: "Intel One Mono", monospace;
+  color: var(--color-text-muted);
+  z-index: 1;
+}
+
+section footer::before {
+  content: "";
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  background: var(--color-signature);
+  margin-right: 9px;
+}
+
+/* ---- Selection, like the website ---- */
+
+section ::selection {
+  background: #c7d2fe;
+  color: #1e1b4b;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  section ::selection {
+    background: #4338ca;
+    color: #ffffff;
+  }
+}
+
+/* ======================================================
+   TYPOGRAPHY
+   ====================================================== */
+
+section h1 {
+  font-family: "Overpass", system-ui, sans-serif;
+  font-weight: 900;
+  font-size: 52px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin: 0 0 0.4em 0;
+  color: var(--color-text);
+}
+
+section h2 {
+  font-family: "Overpass", system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: var(--color-text);
+  margin: 0 0 0.5em 0;
+  border-bottom: 2px solid var(--color-brand-soft);
+  padding-bottom: 0.2em;
+}
+
+section h3 {
+  font-family: "Overpass", system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  color: var(--color-text);
+  margin: 0.7em 0 0.3em 0;
+}
+
+section h4 {
+  font-family: "Overpass", system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  color: var(--color-accent);
+  margin: 0.7em 0 0.3em 0;
+}
+
+section p {
+  margin: 0 0 0.65em 0;
+  font-size: 0.9em;
+  line-height: 1.6;
+}
+
+section strong {
+  color: var(--color-strong);
+  font-weight: 700;
+}
+
+section em {
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+
+section a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+/* Separator dot with symmetric spacing (some fonts kern "·" badly) */
+section .sep {
+  display: inline-block;
+  margin: 0 0.5em;
+  color: var(--color-brand);
+  opacity: 0.6;
+}
+
+/* Contact icons — masked, data uri for offline use */
+section .icon {
+  display: inline-block;
+  width: 0.85em;
+  height: 0.85em;
+  vertical-align: -0.05em;
+  margin-right: 0.35em;
+  background-color: currentColor;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-mode: alpha;
+  mask-mode: alpha;
+}
+
+section .icon-mail {
+  -webkit-mask-image: url("data:image/svg+xml;base64,PCEtLSBAbGljZW5zZSBsdWNpZGUtc3RhdGljIHYxLjQ3LjAgLSBJU0MgLS0+CjxzdmcKICBjbGFzcz0ibHVjaWRlIGx1Y2lkZS1tYWlsIgogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iMjQiCiAgaGVpZ2h0PSIyNCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9ImN1cnJlbnRDb2xvciIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJtMjIgNy04Ljk5MSA1LjcyN2EyIDIgMCAwIDEtMi4wMDkgMEwyIDciIC8+CiAgPHJlY3QgeD0iMiIgeT0iNCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjE2IiByeD0iMiIgLz4KPC9zdmc+Cg==");
+  mask-image: url("data:image/svg+xml;base64,PCEtLSBAbGljZW5zZSBsdWNpZGUtc3RhdGljIHYxLjQ3LjAgLSBJU0MgLS0+CjxzdmcKICBjbGFzcz0ibHVjaWRlIGx1Y2lkZS1tYWlsIgogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iMjQiCiAgaGVpZ2h0PSIyNCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9ImN1cnJlbnRDb2xvciIKICBzdHJva2Utd2lkdGg9IjIiCiAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogIHN0cm9rZS1saW5lam9pbj0icm91bmQiCj4KICA8cGF0aCBkPSJtMjIgNy04Ljk5MSA1LjcyN2EyIDIgMCAwIDEtMi4wMDkgMEwyIDciIC8+CiAgPHJlY3QgeD0iMiIgeT0iNCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjE2IiByeD0iMiIgLz4KPC9zdmc+Cg==");
+}
+
+section .icon-mastodon {
+  -webkit-mask-image: url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjNjM2NEZGIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+TWFzdG9kb248L3RpdGxlPjxwYXRoIGQ9Ik0yMy4yNjggNS4zMTNjLS4zNS0yLjU3OC0yLjYxNy00LjYxLTUuMzA0LTUuMDA0QzE3LjUxLjI0MiAxNS43OTIgMCAxMS44MTMgMGgtLjAzYy0zLjk4IDAtNC44MzUuMjQyLTUuMjg4LjMwOUMzLjg4Mi42OTIgMS40OTYgMi41MTguOTE3IDUuMTI3LjY0IDYuNDEyLjYxIDcuODM3LjY2MSA5LjE0M2MuMDc0IDEuODc0LjA4OCAzLjc0NS4yNiA1LjYxMS4xMTggMS4yNC4zMjUgMi40Ny42MiAzLjY4LjU1IDIuMjM3IDIuNzc3IDQuMDk4IDQuOTYgNC44NTcgMi4zMzYuNzkyIDQuODQ5LjkyMyA3LjI1Ni4zOC4yNjUtLjA2MS41MjctLjEzMi43ODYtLjIxMy41ODUtLjE4NCAxLjI3LS4zOSAxLjc3NC0uNzUzYS4wNTcuMDU3IDAgMCAwIC4wMjMtLjA0M3YtMS44MDlhLjA1Mi4wNTIgMCAwIDAtLjAyLS4wNDEuMDUzLjA1MyAwIDAgMC0uMDQ2LS4wMSAyMC4yODIgMjAuMjgyIDAgMCAxLTQuNzA5LjU0NWMtMi43MyAwLTMuNDYzLTEuMjg0LTMuNjc0LTEuODE4YTUuNTkzIDUuNTkzIDAgMCAxLS4zMTktMS40MzMuMDUzLjA1MyAwIDAgMSAuMDY2LS4wNTRjMS41MTcuMzYzIDMuMDcyLjU0NiA0LjYzMi41NDYuMzc2IDAgLjc1IDAgMS4xMjUtLjAxIDEuNTctLjA0NCAzLjIyNC0uMTI0IDQuNzY4LS40MjIuMDM4LS4wMDguMDc3LS4wMTUuMTEtLjAyNCAyLjQzNS0uNDY0IDQuNzUzLTEuOTIgNC45ODktNS42MDQuMDA4LS4xNDUuMDMtMS41Mi4wMy0xLjY3LjAwMi0uNTEyLjE2Ny0zLjYzLS4wMjQtNS41NDV6bS0zLjc0OCA5LjE5NWgtMi41NjFWOC4yOWMwLTEuMzA5LS41NS0xLjk3Ni0xLjY3LTEuOTc2LTEuMjMgMC0xLjg0Ni43OS0xLjg0NiAyLjM1djMuNDAzaC0yLjU0NlY4LjY2M2MwLTEuNTYtLjYxNy0yLjM1LTEuODQ4LTIuMzUtMS4xMTIgMC0xLjY2OC42NjgtMS42NyAxLjk3N3Y2LjIxOEg0LjgyMlY4LjEwMmMwLTEuMzEuMzM3LTIuMzUgMS4wMTEtMy4xMi42OTYtLjc3IDEuNjA4LTEuMTY0IDIuNzQtMS4xNjQgMS4zMTEgMCAyLjMwMi41IDIuOTYyIDEuNDk4bC42MzggMS4wNi42MzgtMS4wNmMuNjYtLjk5OSAxLjY1LTEuNDk4IDIuOTYtMS40OTggMS4xMyAwIDIuMDQzLjM5NSAyLjc0IDEuMTY0LjY3NS43NyAxLjAxMiAxLjgxIDEuMDEyIDMuMTJ6Ii8+PC9zdmc+");
+  mask-image: url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjNjM2NEZGIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+TWFzdG9kb248L3RpdGxlPjxwYXRoIGQ9Ik0yMy4yNjggNS4zMTNjLS4zNS0yLjU3OC0yLjYxNy00LjYxLTUuMzA0LTUuMDA0QzE3LjUxLjI0MiAxNS43OTIgMCAxMS44MTMgMGgtLjAzYy0zLjk4IDAtNC44MzUuMjQyLTUuMjg4LjMwOUMzLjg4Mi42OTIgMS40OTYgMi41MTguOTE3IDUuMTI3LjY0IDYuNDEyLjYxIDcuODM3LjY2MSA5LjE0M2MuMDc0IDEuODc0LjA4OCAzLjc0NS4yNiA1LjYxMS4xMTggMS4yNC4zMjUgMi40Ny42MiAzLjY4LjU1IDIuMjM3IDIuNzc3IDQuMDk4IDQuOTYgNC44NTcgMi4zMzYuNzkyIDQuODQ5LjkyMyA3LjI1Ni4zOC4yNjUtLjA2MS41MjctLjEzMi43ODYtLjIxMy41ODUtLjE4NCAxLjI3LS4zOSAxLjc3NC0uNzUzYS4wNTcuMDU3IDAgMCAwIC4wMjMtLjA0M3YtMS44MDlhLjA1Mi4wNTIgMCAwIDAtLjAyLS4wNDEuMDUzLjA1MyAwIDAgMC0uMDQ2LS4wMSAyMC4yODIgMjAuMjgyIDAgMCAxLTQuNzA5LjU0NWMtMi43MyAwLTMuNDYzLTEuMjg0LTMuNjc0LTEuODE4YTUuNTkzIDUuNTkzIDAgMCAxLS4zMTktMS40MzMuMDUzLjA1MyAwIDAgMSAuMDY2LS4wNTRjMS41MTcuMzYzIDMuMDcyLjU0NiA0LjYzMi41NDYuMzc2IDAgLjc1IDAgMS4xMjUtLjAxIDEuNTctLjA0NCAzLjIyNC0uMTI0IDQuNzY4LS40MjIuMDM4LS4wMDguMDc3LS4wMTUuMTEtLjAyNCAyLjQzNS0uNDY0IDQuNzUzLTEuOTIgNC45ODktNS42MDQuMDA4LS4xNDUuMDMtMS41Mi4wMy0xLjY3LjAwMi0uNTEyLjE2Ny0zLjYzLS4wMjQtNS41NDV6bS0zLjc0OCA5LjE5NWgtMi41NjFWOC4yOWMwLTEuMzA5LS41NS0xLjk3Ni0xLjY3LTEuOTc2LTEuMjMgMC0xLjg0Ni43OS0xLjg0NiAyLjM1djMuNDAzaC0yLjU0NlY4LjY2M2MwLTEuNTYtLjYxNy0yLjM1LTEuODQ4LTIuMzUtMS4xMTIgMC0xLjY2OC42NjgtMS42NyAxLjk3N3Y2LjIxOEg0LjgyMlY4LjEwMmMwLTEuMzEuMzM3LTIuMzUgMS4wMTEtMy4xMi42OTYtLjc3IDEuNjA4LTEuMTY0IDIuNzQtMS4xNjQgMS4zMTEgMCAyLjMwMi41IDIuOTYyIDEuNDk4bC42MzggMS4wNi42MzgtMS4wNmMuNjYtLjk5OSAxLjY1LTEuNDk4IDIuOTYtMS40OTggMS4xMyAwIDIuMDQzLjM5NSAyLjc0IDEuMTY0LjY3NS43NyAxLjAxMiAxLjgxIDEuMDEyIDMuMTJ6Ii8+PC9zdmc+");
+}
+
+section .icon-matrix {
+  -webkit-mask-image: url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDAwMDAwIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+TWF0cml4PC90aXRsZT48cGF0aCBkPSJNLjYzMi41NXYyMi45SDIuMjhWMjRIMFYwaDIuMjh2LjU1em03LjA0MyA3LjI2djEuMTU3aC4wMzNjLjMwOS0uNDQzLjY4My0uNzg0IDEuMTE3LTEuMDI0LjQzMy0uMjQ1LjkzNi0uMzY1IDEuNS0uMzY1LjU0IDAgMS4wMzMuMTA3IDEuNDgxLjMxNC40NDguMjA4Ljc4NS41ODIgMS4wMiAxLjEwOC4yNTQtLjM3NC42LS43MDYgMS4wMzQtLjk5Mi40MzQtLjI4Ny45NS0uNDMgMS41NDYtLjQzLjQ1MyAwIC44NzIuMDU2IDEuMjYuMTY3LjM4OC4xMS43MTYuMjg2Ljk5My41My4yNzYuMjQ1LjQ4OS41NTkuNjQ2Ljk1MS4xNTIuMzkyLjIzLjg2My4yMyAxLjQxN3Y1LjcyOGgtMi4zNDlWMTEuNTJjMC0uMjg2LS4wMS0uNTU5LS4wMzItLjgxMmExLjc1NSAxLjc1NSAwIDAgMC0uMTgtLjY2IDEuMTA2IDEuMTA2IDAgMCAwLS40MzgtLjQ0OGMtLjE5NC0uMTEtLjQ1Ny0uMTY2LS43ODUtLjE2Ni0uMzMyIDAtLjYuMDY0LS44MDMuMTg5YTEuMzggMS4zOCAwIDAgMC0uNDguNDk5IDEuOTQ2IDEuOTQ2IDAgMCAwLS4yMzEuNjk2IDUuNTYgNS41NiAwIDAgMC0uMDYuNzg1djQuNzY4aC0yLjM1di00LjhjMC0uMjU0LS4wMDQtLjUwMy0uMDE4LS43NTJhMi4wNzQgMi4wNzQgMCAwIDAtLjE0My0uNjg4IDEuMDUyIDEuMDUyIDAgMCAwLS40MTUtLjUwM2MtLjE5NC0uMTI1LS40NzYtLjE5LS44NTQtLjE5LS4xMTEgMC0uMjU5LjAyNC0uNDM5LjA3NC0uMTguMDUxLS4zNi4xNDMtLjUzLjI4Mi0uMTcxLjEzOC0uMzE5LjMzNy0uNDM5LjU5NS0uMTIuMjU5LS4xOC42LS4xOCAxLjAydjQuOTY2SDUuNDZWNy44MXptMTUuNjkzIDE1LjY0Vi41NUgyMS43MlYwSDI0djI0aC0yLjI4di0uNTV6Ii8+PC9zdmc+");
+  mask-image: url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDAwMDAwIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+TWF0cml4PC90aXRsZT48cGF0aCBkPSJNLjYzMi41NXYyMi45SDIuMjhWMjRIMFYwaDIuMjh2LjU1em03LjA0MyA3LjI2djEuMTU3aC4wMzNjLjMwOS0uNDQzLjY4My0uNzg0IDEuMTE3LTEuMDI0LjQzMy0uMjQ1LjkzNi0uMzY1IDEuNS0uMzY1LjU0IDAgMS4wMzMuMTA3IDEuNDgxLjMxNC40NDguMjA4Ljc4NS41ODIgMS4wMiAxLjEwOC4yNTQtLjM3NC42LS43MDYgMS4wMzQtLjk5Mi40MzQtLjI4Ny45NS0uNDMgMS41NDYtLjQzLjQ1MyAwIC44NzIuMDU2IDEuMjYuMTY3LjM4OC4xMS43MTYuMjg2Ljk5My41My4yNzYuMjQ1LjQ4OS41NTkuNjQ2Ljk1MS4xNTIuMzkyLjIzLjg2My4yMyAxLjQxN3Y1LjcyOGgtMi4zNDlWMTEuNTJjMC0uMjg2LS4wMS0uNTU5LS4wMzItLjgxMmExLjc1NSAxLjc1NSAwIDAgMC0uMTgtLjY2IDEuMTA2IDEuMTA2IDAgMCAwLS40MzgtLjQ0OGMtLjE5NC0uMTEtLjQ1Ny0uMTY2LS43ODUtLjE2Ni0uMzMyIDAtLjYuMDY0LS44MDMuMTg5YTEuMzggMS4zOCAwIDAgMC0uNDguNDk5IDEuOTQ2IDEuOTQ2IDAgMCAwLS4yMzEuNjk2IDUuNTYgNS41NiAwIDAgMC0uMDYuNzg1djQuNzY4aC0yLjM1di00LjhjMC0uMjU0LS4wMDQtLjUwMy0uMDE4LS43NTJhMi4wNzQgMi4wNzQgMCAwIDAtLjE0My0uNjg4IDEuMDUyIDEuMDUyIDAgMCAwLS40MTUtLjUwM2MtLjE5NC0uMTI1LS40NzYtLjE5LS44NTQtLjE5LS4xMTEgMC0uMjU5LjAyNC0uNDM5LjA3NC0uMTguMDUxLS4zNi4xNDMtLjUzLjI4Mi0uMTcxLjEzOC0uMzE5LjMzNy0uNDM5LjU5NS0uMTIuMjU5LS4xOC42LS4xOCAxLjAydjQuOTY2SDUuNDZWNy44MXptMTUuNjkzIDE1LjY0Vi41NUgyMS43MlYwSDI0djI0aC0yLjI4di0uNTV6Ii8+PC9zdmc+");
+}
+
+/* ---- Lists ---- */
+
+section ul,
+section ol {
+  margin: 0 0 0.65em 0;
+  padding-left: 1.6em;
+  font-size: 0.9em;
+}
+
+section li {
+  margin-bottom: 0.4em;
+  line-height: 1.5;
+}
+
+section ul li::marker {
+  color: var(--color-brand);
+}
+
+section ol li::marker {
+  color: var(--color-brand);
+  font-weight: 700;
+  font-family: "Overpass", sans-serif;
+}
+
+section ul ul {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+
+section ul ul li::marker {
+  color: var(--color-accent);
+}
+
+/* ---- Inline code ---- */
+
+section code {
+  font-family: "Intel One Mono", monospace;
+  background: var(--color-code-bg);
+  color: var(--color-accent);
+  padding: 0.1em 0.45em;
+  border-radius: 6px;
+  font-size: 0.8em;
+}
+
+/* ---- Code blocks ---- */
+
+section pre {
+  background: var(--pre-bg);
+  border: 1px solid var(--color-border);
+  border-left: 4px solid var(--color-brand);
+  border-radius: var(--radius);
+  padding: 1.1em 1.4em;
+  margin: 0.5em 0;
+  overflow: hidden;
+}
+
+section pre code {
+  background: none;
+  /* colour intentionally unset — highlight.js .hljs-* classes handle it */
+  font-size: 0.7em;
+  line-height: 1.7;
+  padding: 0;
+  border-radius: 0;
+}
+
+/* ---- Conclusion callout — a single punchy takeaway line ---- */
+
+section .conclusion {
+  margin: 0.7em 0;
+  padding: 0.6em 1.3em;
+  background: var(--color-brand-soft);
+  border-left: 5px solid var(--color-brand);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  font-family: "Overpass", sans-serif;
+  font-weight: 900;
+  font-size: 1.3em;
+  letter-spacing: -0.01em;
+  color: var(--color-strong);
+  text-align: center;
+}
+
+/* ---- Blockquote ---- */
+
+section blockquote {
+  border-left: 4px solid var(--color-brand);
+  padding: 0.5em 1.2em;
+  margin: 0.6em 0;
+  background: var(--color-bg-secondary);
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+
+section blockquote p {
+  color: var(--color-text-muted);
+  font-style: italic;
+  font-size: 0.88em;
+  margin: 0;
+}
+
+/* ---- Tables ---- */
+
+section table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 0.5em 0;
+  font-size: 0.8em;
+  border-radius: var(--radius);
+  border: 1px solid var(--color-border);
+  overflow: hidden;
+}
+
+section th {
+  background: var(--color-brand);
+  color: #ffffff;
+  padding: 0.55em 1em;
+  text-align: left;
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  font-size: 0.95em;
+}
+
+section td {
+  padding: 0.45em 1em;
+  border-bottom: 1px solid var(--color-border);
+  color: var(--color-text);
+}
+
+section tr:last-child td {
+  border-bottom: none;
+}
+
+section tr:nth-child(even) td {
+  background: var(--row-alt);
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  section th {
+    background: oklch(0.457 0.215 277);
+  }
+}
+
+/* ---- Images ---- */
+
+section img:not([data-marp-fitting]) {
+  border-radius: var(--radius);
+  max-height: 360px;
+}
+
+/* ---- Chaostreff Osnabrück logo (monochrome — invert on dark surfaces) ---- */
+
+section img.ctreffos {
+  border-radius: 0;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  section img.ctreffos {
+    filter: invert(1);
+  }
+}
+
+section .qr-corner {
+  position: absolute;
+  bottom: 60px;
+  right: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  z-index: 3;
+}
+
+section .qr-corner img.qr-code {
+  width: 200px;
+  height: 200px;
+  padding: 8px;
+  background: #ffffff;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  box-shadow: 0 6px 18px var(--color-glow);
+}
+
+/* ---- Horizontal rule ---- */
+
+section hr {
+  border: none;
+  border-top: 1px solid var(--color-border);
+  margin: 0.8em 0;
+}
+
+/* ======================================================
+   BOARD — Standby info board, shown while people arrive
+   Header strip (what / when) + the dates worth noting down.
+   ====================================================== */
+
+section.board {
+  display: flex;
+  flex-direction: column;
+  padding: 46px 70px 222px;
+  background:
+    radial-gradient(ellipse at 50% 4%, var(--color-glow) 0%, transparent 55%),
+    radial-gradient(ellipse at 8% 96%, var(--glow-warm) 0%, transparent 45%),
+    var(--color-bg);
+}
+
+section.board::after,
+section.board footer {
+  display: none;
+}
+
+/* ---- Header strip: logo · talk · start time ---- */
+
+section.board .board-head {
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+section.board .brand-logo {
+  flex: none;
+  width: 168px;
+}
+
+section.board .board-title {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+section.board .board-title-main {
+  font-family: "Overpass", sans-serif;
+  font-weight: 900;
+  font-size: 34px;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  color: var(--color-text);
+}
+
+section.board .board-title-sub {
+  font-size: 20px;
+  color: var(--color-text-muted);
+}
+
+section.board .board-start {
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1px;
+}
+
+section.board .board-start-label {
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}
+
+section.board .board-start-label::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: var(--color-signature);
+  margin-right: 9px;
+  vertical-align: 0.05em;
+}
+
+section.board .board-start-time {
+  font-family: "Overpass", sans-serif;
+  font-weight: 900;
+  font-size: 32px;
+  letter-spacing: -0.02em;
+  color: var(--color-accent);
+}
+
+/* ---- Body: section label + cards, centred as one group ---- */
+
+section.board .board-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section.board h2 {
+  flex: none;
+  border: none;
+  padding: 0;
+  margin: 0 0 20px;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}
+
+/* ---- Date cards ---- */
+
+section.board .dates {
+  flex: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 26px;
+}
+
+section.board .date {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  padding: 22px 26px 26px;
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-top: 4px solid var(--color-brand);
+  border-radius: var(--radius);
+  box-shadow: 0 10px 30px var(--color-glow);
+}
+
+section.board .date-when {
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
+
+section.board .date-what {
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: var(--color-text);
+}
+
+section.board .date-note {
+  font-size: 17px;
+  line-height: 1.45;
+  color: var(--color-text-muted);
+}
+
+/* ---- Host bar, pinned to the bottom: logo above, slogan below ---- */
+
+section.board .hostbar {
+  position: absolute;
+  left: 70px;
+  right: 70px;
+  bottom: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding-top: 22px;
+  border-top: 1px solid var(--color-border);
+}
+
+section.board .hostbar img {
+  width: 200px;
+}
+
+section.board .welcome {
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+  letter-spacing: 0.01em;
+  color: var(--color-accent);
+}
+
+/* ======================================================
+   LEAD — Title slide
+   ====================================================== */
+
+section.lead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 200px 80px 96px;
+  background:
+    radial-gradient(ellipse at 88% 16%, var(--color-glow) 0%, transparent 52%),
+    radial-gradient(ellipse at 6% 94%, var(--glow-warm) 0%, transparent 45%),
+    var(--color-bg);
+}
+
+section.lead::after,
+section.lead footer {
+  display: none;
+}
+
+section.lead .brand-logo {
+  position: absolute;
+  top: 64px;
+  left: 80px;
+  width: 184px;
+}
+
+section.lead .kicker {
+  margin: 0 0 18px;
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}
+
+section.lead .kicker::before {
+  content: "";
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  background: var(--color-signature);
+  margin-right: 11px;
+  vertical-align: 0.05em;
+}
+
+section.lead h1 {
+  font-size: 76px;
+  margin: 0 0 14px;
+  color: var(--color-text);
+}
+
+section.lead h2 {
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 400;
+  font-size: 29px;
+  color: var(--color-text-muted);
+}
+
+/* ---- Credits row: speaker block left, host logo right, on one line ---- */
+
+section.lead .credits {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 48px;
+  width: 100%;
+  margin-top: 46px;
+}
+
+section.lead .speaker {
+  padding-left: 24px;
+  border-left: 4px solid var(--color-brand);
+}
+
+section.lead .speaker p {
+  margin: 0;
+  color: var(--color-text);
+}
+
+section.lead .speaker p:nth-child(1) {
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+}
+
+section.lead .speaker p:nth-child(2) {
+  margin-top: 2px;
+  font-size: 19px;
+  color: var(--color-text-muted);
+}
+
+section.lead .speaker p:nth-child(3) {
+  margin-top: 12px;
+  font-family: "Intel One Mono", monospace;
+  font-size: 15px;
+  color: var(--color-text-muted);
+}
+
+section.lead .lead-host {
+  flex: none;
+  width: 200px;
+}
+
+/* ======================================================
+   CHAPTER — Section divider
+   ====================================================== */
+
+section.chapter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 80px;
+  background:
+    radial-gradient(ellipse at center, var(--chapter-a) 0%, transparent 60%),
+    linear-gradient(145deg, var(--color-bg-secondary) 0%, var(--chapter-b) 100%);
+}
+
+section.chapter::after {
+  display: none;
+}
+
+section.chapter h1 {
+  font-size: 66px;
+  margin-bottom: 0.2em;
+  color: var(--color-accent);
+}
+
+section.chapter h2 {
+  border: none;
+  padding: 0;
+  font-size: 22px;
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 400;
+  color: var(--color-text-muted);
+}
+
+section.chapter footer {
+  display: none;
+}
+
+/* ======================================================
+   COLS — Two-column layout (requires --html flag)
+   ====================================================== */
+
+section.cols .columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  margin-top: 0.4em;
+}
+
+section.cols .columns > * {
+  min-width: 0;
+}
+
+/* ======================================================
+   QUOTE — Prominent pull-quote slide
+   ====================================================== */
+
+section.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 80px;
+}
+
+section.quote blockquote {
+  border-left: none;
+  border-top: 3px solid var(--color-brand);
+  border-bottom: 3px solid var(--color-accent);
+  border-radius: var(--radius);
+  padding: 1.8em 2.5em;
+  background: var(--color-bg-secondary);
+  max-width: 920px;
+}
+
+section.quote blockquote p {
+  font-size: 1.15em;
+  color: var(--color-text);
+  font-style: italic;
+  line-height: 1.75;
+  margin: 0;
+}
+
+section.quote blockquote p strong {
+  color: var(--color-accent);
+  font-style: normal;
+  display: block;
+  margin-top: 1.1em;
+  font-size: 0.8em;
+  font-family: "Overpass", sans-serif;
+  letter-spacing: 0.01em;
+}
+
+/* ======================================================
+   CLOSING — Thank-you slide
+   ====================================================== */
+
+section.closing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 80px;
+  background:
+    radial-gradient(ellipse at center, var(--chapter-a) 0%, transparent 60%),
+    radial-gradient(ellipse at 80% 80%, var(--glow-warm) 0%, transparent 40%),
+    var(--color-bg);
+}
+
+section.closing::after {
+  display: none;
+}
+
+section.closing h1 {
+  font-size: 76px;
+  margin-bottom: 0.15em;
+  color: var(--color-accent);
+}
+
+section.closing h2 {
+  border: none;
+  padding: 0;
+  font-size: 22px;
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 400;
+  color: var(--color-text-muted);
+}
+
+section.closing footer {
+  display: none;
+}

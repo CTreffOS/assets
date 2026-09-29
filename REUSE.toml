@@ -37,6 +37,116 @@ path = ["chaostreff/**", "chaostalks/**", "rabbithole/**", "osna.social/**", "RE
 SPDX-FileCopyrightText = "Chaostreff Osnabrück e.V."
 SPDX-License-Identifier = "LicenseRef-AllRightsReserved"
 
+[[annotations]]
+path = "rabbithole/inside/long-exposure.jpg"
+SPDX-FileCopyrightText = "Tim Klausmeyer"
+SPDX-License-Identifier = "CC-BY-NC-4.0"
+# Overrides the rabbithole/** blanket rule above: this specific photo is
+# externally licensed, not Chaostreff Osnabrück e.V. all-rights-reserved.
+# The crops used in diday/talk-diday-www/ carry the same annotation.
+
+# ── DIDAY-Vortrag "Wieso, weshalb, warum?" (Digitale Woche Osnabrück 2026) ─────
+# diday/talk-diday-www/: fonts and the Chaostreff logo are symlinked into
+# fonts/ and chaostreff/logo/ and inherit those annotations. Everything below
+# is either Nils Israel's own talk content or third-party assets bundled with
+# it; see README.md for the human-readable summary and slides.md for in-slide
+# photo credits. slides.md also quotes third-party sources directly; those
+# quotations are individually referenced in-slide, not separately annotated
+# here.
+
+[[annotations]]
+path = [
+    "diday/talk-diday-www/.gitignore",
+    "diday/talk-diday-www/package.json",
+    "diday/talk-diday-www/pnpm-lock.yaml",
+    "diday/talk-diday-www/slides.md",
+    "diday/talk-diday-www/theme.css",
+    "diday/talk-diday-www/assets/media/qr-code-diday-www.svg",
+]
+SPDX-FileCopyrightText = "2026 Nils Israel"
+SPDX-License-Identifier = "CC-BY-NC-4.0"
+
+[[annotations]]
+path = [
+    "diday/talk-diday-www/assets/media/rabbithole-left.jpg",
+    "diday/talk-diday-www/assets/media/rabbithole-right.jpg",
+]
+SPDX-FileCopyrightText = "Tim Klausmeyer"
+SPDX-License-Identifier = "CC-BY-NC-4.0"
+# Cropped from rabbithole/inside/long-exposure.jpg; see that file's own
+# annotation below, which overrides the rabbithole/** blanket rule above.
+
+[[annotations]]
+path = [
+    "diday/talk-diday-www/assets/logo.svg",
+    "diday/talk-diday-www/assets/favicon.svg",
+]
+SPDX-FileCopyrightText = "2026 Stella Schiffczyk"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "diday/talk-diday-www/assets/icons/mail.svg"
+SPDX-FileCopyrightText = "Lucide Contributors"
+SPDX-License-Identifier = "ISC"
+
+[[annotations]]
+path = [
+    "diday/talk-diday-www/assets/icons/mastodon.svg",
+    "diday/talk-diday-www/assets/icons/matrix.svg",
+]
+SPDX-FileCopyrightText = "Simple Icons Collaborators"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "diday/talk-diday-www/assets/twemoji/**"
+SPDX-FileCopyrightText = "Twitter, Inc and other contributors"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "diday/talk-diday-www/assets/media/nichts-zu-verbergen.jpg"
+SPDX-FileCopyrightText = "Alex Snaps"
+SPDX-License-Identifier = "CC-BY-2.0"
+
+[[annotations]]
+path = "diday/talk-diday-www/assets/media/diday-39c3.jpg"
+SPDX-FileCopyrightText = "tube.funfacts.de"
+SPDX-License-Identifier = "CC-BY-NC-4.0"
+
+[[annotations]]
+path = "diday/talk-diday-www/assets/media/map_events.jpg"
+SPDX-FileCopyrightText = [
+    "2026 Nils Israel",
+    "OpenStreetMap contributors",
+]
+SPDX-License-Identifier = "CC-BY-NC-4.0 AND ODbL-1.0"
+# Screenshot of events.diday.org (built and operated by CCC Flensburg), which
+# renders its event map with OpenStreetMap data (© OpenStreetMap
+# contributors, https://www.openstreetmap.org/copyright, ODbL-1.0). The
+# screenshot itself is CC-BY-NC-4.0, like the rest of Nils Israel's own talk
+# content; the map data within it is ODbL-1.0, and the platform's own
+# content/branding is not covered by either license.
+
+[[annotations]]
+path = "diday/talk-diday-www/dist/slides.pdf"
+SPDX-FileCopyrightText = [
+    "2026 Nils Israel",
+    "2026 Stella Schiffczyk",
+    "Lucide Contributors",
+    "Simple Icons Collaborators",
+    "Twitter, Inc and other contributors",
+    "Alex Snaps",
+    "tube.funfacts.de",
+    "Tim Klausmeyer",
+    "OpenStreetMap contributors",
+    "Chaostreff Osnabrück e.V.",
+]
+SPDX-License-Identifier = "CC-BY-4.0 AND ISC AND CC0-1.0 AND CC-BY-2.0 AND CC-BY-NC-4.0 AND ODbL-1.0 AND LicenseRef-Chaostreff-pending"
+# Rendered PDF embeds every asset above, so its combined license is the union
+# of all of them. In particular it embeds the Chaostreff Osnabrück e.V. logo
+# (no open license, see below), Nils Israel's own CC-BY-NC-licensed talk
+# content, and two further CC-BY-NC-licensed photos, so this file is not
+# freely reusable commercially as a whole.
+
 # ── Fonts ─────────────────────────────────────────────────────────────────────
 
 [[annotations]]

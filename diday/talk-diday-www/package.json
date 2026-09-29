@@ -1,0 +1,15 @@
+{
+  "name": "diday-presentation",
+  "version": "0.0.1",
+  "description": "Digital Independence Day — Marp slide deck",
+  "private": true,
+  "scripts": {
+    "dev": "marp . --theme theme.css --html --allow-local-files --watch --server",
+    "build": "marp slides.md --theme theme.css --html --allow-local-files --output dist/index.html && rm -rf dist/assets && cp -RL assets dist/assets",
+    "pdf": "marp slides.md --theme theme.css --html --allow-local-files --pdf --output dist/slides.pdf"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^3.4.0",
+    "@marp-team/marp-core": "^3.0.0"
+  }
+}
